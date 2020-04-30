@@ -1,0 +1,18 @@
+section.patientDemograpics{
+    background: #ece9da;
+    padding: 25px;
+    font-size: 16px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 25px;
+}
+section.patientDemograpics div{
+    padding:0;
+}
+
+.demoGraphicRow{
+  margin-right: 45px;
+  display: inline-block;
+}
+.demoGraphicRow:last-child{
+  margin: 0;
+}

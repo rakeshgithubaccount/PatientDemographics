@@ -1,0 +1,9 @@
+<section class="patientContainer">
+  <app-patient-demo-graphics [patientDemograpics]="patientDemograpics"></app-patient-demo-graphics>
+  <app-patient-condition-list [conditionsList]="conditionsList"></app-patient-condition-list>
+
+</section>
+<section class="ErrorField">
+  <div *ngIf="hasError" class="errorMessage">{{errorMessage}}</div>
+</section>
+<router-outlet></router-outlet>

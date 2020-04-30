@@ -1,0 +1,23 @@
+<section class="patientDemograpics">
+  <form>
+    <div class="demoGraphicRow">
+      <label>Name:</label>
+      <div *ngIf="patientDemograpics.name && patientDemograpics.name.length">
+        {{patientDemograpics.name[0].prefix}} {{patientDemograpics.name[0].given}}
+        {{patientDemograpics.name[0].family}}
+      </div>
+    </div>
+    <div class="demoGraphicRow">
+      <label>Gender:</label>
+      <div>
+        {{patientDemograpics.gender}}
+      </div>
+    </div>
+    <div class="demoGraphicRow">
+      <label>Date of birth:</label>
+      <div>
+        {{patientDemograpics.birthDate}}
+      </div>
+    </div>
+  </form>
+</section>

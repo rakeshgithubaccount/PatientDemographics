@@ -1,0 +1,21 @@
+.glyphicon{
+    left:15px;
+    cursor: pointer;
+    font-size:10px;
+}
+
+.patientConditionContainer {
+  font-family: "Arial", Times, serif;
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  text-align: left;
+  font-size:16px;
+}
+.patientConditionContainer .demoGraphicHeader th{
+  background: #6f7bd9;
+  border-bottom: 5px solid #FFFFFF;
+  color:#FFFFFF;
+}
+.patientConditionContainer tr:nth-child(even) {
+  background: #e0dfd8;
+}

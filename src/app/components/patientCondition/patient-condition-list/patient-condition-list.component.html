@@ -1,0 +1,21 @@
+<section class="patientConditionList">   
+  <table class="table patientConditionContainer">
+    <thead class="thead-light demoGraphicHeader">
+      <tr>
+        <th (click)="sortOrder=='asc'?sortOrder='desc':sortOrder='asc';sort('code.text',sortOrder)" scope="col">
+          Condition<span class="glyphicon glyphicon-sort"></span></th>
+        <th (click)="sortOrder=='asc'?sortOrder='desc':sortOrder='asc';sort('onsetDateTime',sortOrder)" scope="col">
+          Date Recorded<span class="glyphicon glyphicon-sort"></span></th>
+        <th scope="col">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let condition of conditionsList">
+        <td>{{condition.resource.code.text}}</td>
+        <td>{{condition.resource.onsetDateTime | date:'yyyy-MM-dd'}}</td>
+        <td><a target="_blank"
+            href="https://www.ncbi.nlm.nih.gov/pubmed/?term={{condition.resource.code.text}}">PubMed</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>

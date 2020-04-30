@@ -1,0 +1,17 @@
+.errorMessage{
+  font-size:12px;
+  color:red;
+}
+
+section.patientContainer{
+  width: 90%;
+  margin:auto;
+  -webkit-box-shadow: 1px 4px 18px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 4px 18px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 4px 18px 0px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+section.ErrorField{
+  width: 90%;
+  margin:auto;
+}
