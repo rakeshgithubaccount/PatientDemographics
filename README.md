@@ -27,3 +27,7 @@ Launch - SMART Health IT sandbox (https://launch.smarthealthit.org/)
 4) Enter "http://localhost:4200" at "App Launch URL" section and launch
 5) Local application should be launched, displaying patient demographics with Sortable Conditions
 
+## Notes
+
+Can test any patient, but for better view i have tested "Ms. Irma Blick, age: 22 years, sex: Female" as it has more number of conditions
+
