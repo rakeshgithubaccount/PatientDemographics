@@ -31,3 +31,4 @@ Launch - SMART Health IT sandbox (https://launch.smarthealthit.org/)
 
 Can test any patient, but for better view i have tested "Ms. Irma Blick, age: 22 years, sex: Female" as it has more number of conditions
 
+ScreentShot kept in asset folder
